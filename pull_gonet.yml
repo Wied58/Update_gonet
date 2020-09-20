@@ -37,10 +37,10 @@
           name: picamera
           executable: pip3
           
-     - name: Ensure fractions is installed with pip 3
-        pip:
-          name: fraction
-          executable: pip3
+      - name: Ensure fractions is installed with pip 3
+         pip:
+           name: fractions
+           executable: pip3
 
       - name: Get gonet3 repo from GitHub
         git: 
